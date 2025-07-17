@@ -3,7 +3,6 @@
 
 .
 .
-[image-1752772777674.jpg](https://postimg.cc/gxt0hx0Q))
 ![Cover](https://i.postimg.cc/yNs3w9C1/image-1752772777674.jpg)
 .
 # دورهٔ جامع تولید دارو، قرص و مخدرهای پزشکی
