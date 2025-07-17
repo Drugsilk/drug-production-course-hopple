@@ -24,3 +24,11 @@
 - [GitHub Repository](https://github.com/drugsilk/drug-production-course-hopple)
 
 > If you're truly seeking the science behind modern pharmaceuticals, you've found the gateway.
+
+
+
+---
+
+## 🌐 Language / زبان / Язык:
+
+| 🇮🇷 [فارسی](./index.md) | 🇬🇧 [English](./index-en.md) | 🇷🇺 [Русский](./index-ru.md) |
