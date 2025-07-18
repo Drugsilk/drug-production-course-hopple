@@ -26,4 +26,4 @@ Disallow: /manifest.json
 Disallow: /docs/icon-192.png
 
 # 🗺️ معرفی فایل نقشه سایت برای خزنده‌ها
-Sitemap: https://drugsilk.github.io/drug-production-course-hopple/sitemap.xml
+Sitemap: https://drugsilk.github.io/drug-production-course-hopple/docs/sitemap.xml
