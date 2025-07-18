@@ -1,49 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- 
+
+  <!-- 🇮🇷 صفحهٔ فارسی اصلی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/index.html</loc>
     <priority>1.0</priority>
   </url>
- 
+
+  <!-- 🇬🇧 صفحهٔ انگلیسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/index-en.html</loc>
     <priority>1.0</priority>
   </url>
 
+  <!-- 🇷🇺 صفحهٔ روسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/index-ru.html</loc>
     <priority>1.0</priority>
   </url>
 
+  <!-- 💳 فرم پرداخت -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/payment.html</loc>
     <priority>0.9</priority>
   </url>
- 
+
+  <!-- 📄 دربارهٔ ما فارسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/about.html</loc>
     <priority>0.8</priority>
   </url>
 
+  <!-- 📄 دربارهٔ ما انگلیسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/about-en.html</loc>
     <priority>0.8</priority>
   </url>
 
+  <!-- 📄 دربارهٔ ما روسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/about-ru.html</loc>
     <priority>0.8</priority>
+  </url>
 
-    
-  <!-- ⚖️ صفحهٔ حقوقی عمومی (در صورت وجود) -->
+  <!-- ⚖️ صفحهٔ حقوقی عمومی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/legal/public-terms.html</loc>
     <lastmod>2025-07-18</lastmod>
     <priority>0.7</priority>
   </url>
 
-    
-  </url>
 </urlset>
