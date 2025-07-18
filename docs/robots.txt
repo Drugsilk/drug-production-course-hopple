@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# ✅ اجازه ایندکس صفحات عمومی ریشه
+Allow: /index.html
+Allow: /index-en.html
+Allow: /index-ru.html
+Allow: /payment.html
+Allow: /about.html
+Allow: /about-en.html
+Allow: /about-ru.html
+
+# ✅ اجازه ایندکس پوشه تصاویر عمومی
+Allow: /docs/assets/
+
+# 🔒 جلوگیری از ایندکس مسیرهای حساس (فرم‌ها، پیش‌نویس‌ها، اطلاعات داخلی)
+Disallow: /form/
+Disallow: /payment-form/
+Disallow: /legal/draft/
+Disallow: /docs/private/
+Disallow: /docs/forms/
+Disallow: /docs/hidden/
+
+# 🔎 جلوگیری از ایندکس فایل‌های سیستمی یا manifest
+Disallow: /manifest.json
+Disallow: /docs/icon-192.png
+
+# 🗺️ معرفی فایل نقشه سایت برای خزنده‌ها
+Sitemap: https://drugsilk.github.io/drug-production-course-hopple/sitemap.xml
