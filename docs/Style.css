@@ -51,3 +51,29 @@ blockquote {
   background-color: #121212;
   margin: 1rem 0;
     }
+/* 📱 Responsive tweaks for small screens */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .section {
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 6px;
+  }
+
+  .lang-menu {
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .lang-menu a {
+    display: inline-block;
+    margin: 0.5rem;
+  }
+}
