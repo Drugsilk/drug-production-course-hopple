@@ -49,6 +49,81 @@ h2 {
   box-shadow: 0 0 35px rgba(255, 215, 0, 0.2);
 }
 
+
+/*  faq  */
+/* FAQ Section Styling */
+.faq {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+.faq h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #f5c742;
+  text-align: center;
+}
+
+/* Style for each question block */
+.faq details {
+  background-color: #141414;
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.faq details summary {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #f5c742;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq details[open] {
+  background-color: #1c1c1c;
+  border-color: #888;
+  box-shadow: 0 0 10px #f5c74255;
+}
+
+.faq details p {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #eaeaea;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 600px) {
+  .faq {
+    padding: 0 0.5rem;
+  }
+
+  .faq details summary {
+    font-size: 1rem;
+  }
+
+  .faq details p {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* لیست‌ها */
 ul {
   list-style-type: '✦ ';
