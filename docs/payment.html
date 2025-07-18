@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Crypto Payment</title>
+  <style>
+    :root {
+      --gold: #f5c742;
+      --dark: #0b0b0b;
+      --mid: #1a1a1a;
+      --text: #e2e2e2;
+    }
+
+    body {
+      background-color: var(--dark);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    header h1 {
+      color: var(--gold);
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+      color: var(--text);
+    }
+
+    header small {
+      display: block;
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    .wallets {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+
+    .wallet {
+      background-color: var(--mid);
+      padding: 1.5rem;
+      border: 1px solid #333;
+      border-radius: 8px;
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .wallet h2 {
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .wallet p {
+      word-break: break-all;
+      font-size: 1rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #444;
+      margin: 3rem 0;
+    }
+
+    form {
+      background-color: var(--mid);
+      padding: 2rem;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: auto;
+      text-align: left;
+      box-shadow: 0 0 10px #111;
+    }
+
+    form h3 {
+      text-align: center;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+
+    form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+      color: var(--gold);
+    }
+
+    form input {
+      width: 100%;
+      padding: 0.7rem;
+      margin-top: 0.3rem;
+      background-color: #222;
+      border: none;
+      border-radius: 5px;
+      color: var(--gold);
+    }
+
+    form button {
+      margin-top: 2rem;
+      padding: 0.75rem 2rem;
+      background-color: var(--gold);
+      color: var(--dark);
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Secure Crypto Payment</h1>
+      <p>“Knowledge. Privacy. Power.”</p>
+      <small>Your contribution strengthens a future built on integrity, science, and encrypted freedom.</small>
+    </header>
+
+    <section class="wallets">
+      <div class="wallet">
+        <h2>USDT (ERC20)</h2>
+        <p><strong>Wallet:</strong><br>0xABCDEF1234567890</p>
+      </div>
+      <div class="wallet">
+        <h2>Bitcoin (BTC)</h2>
+        <p><strong>Wallet:</strong><br>bc1qzswva590yl6tnzx9j5zka9w62va8kxswmmh35x</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <form method="POST" action="mailto:Golden.Triangle.learn@gmail.com" enctype="text/plain">
+      <h3>Payment Confirmation</h3>
+      <label for="txHash">Transaction Hash</label>
+      <input type="text" name="Transaction Hash" id="txHash" required>
+
+      <label for="email">Email (optional)</label>
+      <input type="email" name="Email" id="email">
+
+      <label for="alias">Your Alias</label>
+      <input type="text" name="Alias" id="alias" required>
+
+      <button type="submit">Send Confirmation</button>
+    </form>
+
+    <footer>
+      Payments are final and non-refundable. Manual verification may take up to 24 hours.
+    </footer>
+  </div>
+</body>
+</html>
