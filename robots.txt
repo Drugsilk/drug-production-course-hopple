@@ -1,7 +1,7 @@
 User-agent: *
-Disallow:
+Allow: /
 
-# ✅ اجازه ایندکس صفحات عمومی در ریشه
+# ✅ اجازه ایندکس صفحات عمومی ریشه
 Allow: /index.html
 Allow: /index-en.html
 Allow: /index-ru.html
