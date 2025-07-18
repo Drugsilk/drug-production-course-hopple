@@ -1,0 +1,21 @@
+{
+  "name": "Golden Crescent Academy",
+  "short_name": "Golden Crescent",
+  "start_url": "./index-en.html",
+  "display": "standalone",
+  "background_color": "#0b0b0b",
+  "theme_color": "#e5c957",
+  "description": "Encrypted pharmaceutical masterclass with multilingual access and secure delivery.",
+  "icons": [
+    {
+      "src": "docs/assets/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "docs/assets/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
