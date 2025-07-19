@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- 🇮🇷 صفحهٔ فارسی اصلی -->
+  <!-- 📘 مقالات علمی | بنزن -->
+  <url>
+    <loc>https://drugsilk.github.io/drug-production-course-hopple/blog/benzene-in-pharma-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://drugsilk.github.io/drug-production-course-hopple/blog/benzene-in-pharma-fa.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://drugsilk.github.io/drug-production-course-hopple/blog/benzene-in-pharma-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drugsilk.github.io/drug-production-course-hopple/blog/benzene-in-pharma-en.html"/>
+    <lastmod>2025-07-20</lastmod>
+  </url>
+
+  <!-- 📘 مقالات علمی | HCl -->
+  <url>
+    <loc>https://drugsilk.github.io/drug-production-course-hopple/blog/hcl-in-pharma-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://drugsilk.github.io/drug-production-course-hopple/blog/hcl-in-pharma-fa.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://drugsilk.github.io/drug-production-course-hopple/blog/hcl-in-pharma-ru.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drugsilk.github.io/drug-production-course-hopple/blog/hcl-in-pharma-en.html"/>
+    <lastmod>2025-07-20</lastmod>
+  </url>
+
+  <!-- 🇮🇷 صفحهٔ اصلی فارسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/index.html</loc>
     <priority>1.0</priority>
   </url>
 
-  <!-- 🇬🇧 صفحهٔ انگلیسی -->
+  <!-- 🇬🇧 صفحهٔ اصلی انگلیسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/index-en.html</loc>
     <priority>1.0</priority>
   </url>
 
-  <!-- 🇷🇺 صفحهٔ روسی -->
+  <!-- 🇷🇺 صفحهٔ اصلی روسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/index-ru.html</loc>
     <priority>1.0</priority>
@@ -25,19 +44,15 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- 📄 دربارهٔ ما فارسی -->
+  <!-- 📄 دربارهٔ ما (سه زبان) -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/about.html</loc>
     <priority>0.8</priority>
   </url>
-
-  <!-- 📄 دربارهٔ ما انگلیسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/about-en.html</loc>
     <priority>0.8</priority>
   </url>
-
-  <!-- 📄 دربارهٔ ما روسی -->
   <url>
     <loc>https://drugsilk.github.io/drug-production-course-hopple/about-ru.html</loc>
     <priority>0.8</priority>
